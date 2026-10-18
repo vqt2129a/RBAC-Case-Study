@@ -1,0 +1,18 @@
+{
+  "name": "rbac-scope-engine-case-study",
+  "version": "1.0.0",
+  "description": "Case study: hierarchical RBAC with per-permission data scopes, org-tree resolution, Redis-cached auth context and reliable permission revocation.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.8"
+  }
+}
